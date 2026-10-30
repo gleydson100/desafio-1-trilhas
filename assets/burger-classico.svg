@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="100%" height="100%">
+  <defs>
+    <radialGradient id="plate" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f8f9fa"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </radialGradient>
+    <linearGradient id="bunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E89B53"/>
+      <stop offset="100%" stop-color="#C27329"/>
+    </linearGradient>
+    <linearGradient id="pattyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5C3317"/>
+      <stop offset="100%" stop-color="#3A1F0D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background shadow -->
+  <ellipse cx="150" cy="205" rx="100" ry="18" fill="#d0d7de" opacity="0.6"/>
+
+  <!-- Bottom Bun -->
+  <path d="M 65 170 C 65 195 235 195 235 170 C 235 163 65 163 65 170 Z" fill="url(#bunGrad)"/>
+
+  <!-- Burger Patty -->
+  <rect x="55" y="142" width="190" height="26" rx="12" fill="url(#pattyGrad)"/>
+  
+  <!-- Melted Cheddar Cheese -->
+  <polygon points="50,140 250,140 230,158 195,145 165,162 135,145 105,160 70,142" fill="#FFA726"/>
+
+  <!-- Tomato slices -->
+  <ellipse cx="110" cy="130" rx="42" ry="10" fill="#E53935"/>
+  <ellipse cx="190" cy="130" rx="42" ry="10" fill="#D32F2F"/>
+
+  <!-- Lettuce wave -->
+  <path d="M 50 125 C 70 115 85 132 110 120 C 135 132 165 115 190 127 C 215 115 230 132 250 122 C 255 132 245 138 235 136 C 210 143 185 132 160 140 C 135 133 110 141 85 135 C 65 140 50 134 50 125 Z" fill="#66BB6A"/>
+
+  <!-- Top Bun -->
+  <path d="M 60 120 C 60 52 240 52 240 120 Z" fill="url(#bunGrad)"/>
+
+  <!-- Bun Highlight -->
+  <path d="M 85 85 C 105 65 165 60 195 68" stroke="#FFE0B2" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- Sesame Seeds -->
+  <ellipse cx="110" cy="80" rx="3.5" ry="2" fill="#FFF8E1" transform="rotate(-15 110 80)"/>
+  <ellipse cx="140" cy="70" rx="3.5" ry="2" fill="#FFF8E1" transform="rotate(5 140 70)"/>
+  <ellipse cx="170" cy="75" rx="3.5" ry="2" fill="#FFF8E1" transform="rotate(25 170 75)"/>
+  <ellipse cx="125" cy="95" rx="3.5" ry="2" fill="#FFF8E1" transform="rotate(-5 125 95)"/>
+  <ellipse cx="158" cy="92" rx="3.5" ry="2" fill="#FFF8E1" transform="rotate(12 158 92)"/>
+  <ellipse cx="190" cy="95" rx="3.5" ry="2" fill="#FFF8E1" transform="rotate(-20 190 95)"/>
+</svg>

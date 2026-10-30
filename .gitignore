@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ambientes e arquivos temporários
+.env
+.env.local
+*.tmp
+*.temp
+
+# Configurações de IDEs e editores (mantendo o .vscode versionado)
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+.vscode
+

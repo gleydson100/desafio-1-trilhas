@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#E64A19"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46" fill="url(#bg)"/>
+  <!-- Top Bun -->
+  <path d="M 28 42 C 28 26 72 26 72 42 Z" fill="#F4A261"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="42" cy="34" rx="1.5" ry="0.8" fill="#FFF3E0" transform="rotate(-15 42 34)"/>
+  <ellipse cx="52" cy="31" rx="1.5" ry="0.8" fill="#FFF3E0"/>
+  <ellipse cx="60" cy="35" rx="1.5" ry="0.8" fill="#FFF3E0" transform="rotate(20 60 35)"/>
+  <!-- Cheese -->
+  <polygon points="26,48 74,48 64,57 52,50 40,58 30,50" fill="#FFC107"/>
+  <!-- Patty -->
+  <rect x="25" y="52" width="50" height="11" rx="5" fill="#5D4037"/>
+  <!-- Lettuce -->
+  <path d="M 23 45 Q 31 43 38 46 Q 47 43 55 46 Q 64 43 77 45 Q 73 48 68 47 Q 59 50 50 47 Q 41 50 32 47 Z" fill="#4CAF50"/>
+  <!-- Bottom bun -->
+  <path d="M 27 65 Q 50 67 73 65 L 71 73 Q 50 77 29 73 Z" fill="#F4A261"/>
+</svg>
